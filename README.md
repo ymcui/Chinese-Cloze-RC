@@ -30,7 +30,8 @@ sentence_id(space)|||(space)Query(space)|||(space)Answer
 
 ##Paper
 Detailed information can be found in our paper.
-Avaliable through arXiv: (https://arxiv.org/abs/1607.02250)
+
+Avaliable through arXiv: https://arxiv.org/abs/1607.02250
 
 
 ##Reference
