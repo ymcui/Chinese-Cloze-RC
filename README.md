@@ -37,7 +37,7 @@ Avaliable through arXiv: (https://arxiv.org/abs/1607.02250)
 If you wish to use this data in your work, please cite
 ```
 @article{cui-etal-2016-consensus,
-  title={Consensus Attention Neural Networks for Chinese Reading Comprehension},
+  title={Consensus Attention-based Neural Networks for Chinese Reading Comprehension},
   author={Cui, Yiming and Liu, Ting and Chen, Zhipeng and Wang, Shijin and Hu, Guoping},
   journal={arXiv preprint arXiv:1607.02250},
   year={2016}
