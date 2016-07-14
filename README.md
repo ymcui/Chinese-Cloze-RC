@@ -2,6 +2,7 @@
 
 Here, we release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (CFT). We hope this would speed up the process for future research in machine comprehension.
 
+More detailed info: http://hfl.iflytek.com/chinese-rc/
 
 ##Data Format
 Here is a sample of People Daily data,
@@ -28,7 +29,8 @@ sentence_id(space)|||(space)Query(space)|||(space)Answer
 ```
 
 ##Paper
-Our paper is avaliable through arXiv: (https://arxiv.org/abs/1607.02250)
+Detailed information can be found in our paper.
+Avaliable through arXiv: (https://arxiv.org/abs/1607.02250)
 
 
 ##Reference
