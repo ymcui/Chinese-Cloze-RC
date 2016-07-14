@@ -1,20 +1,6 @@
 # HFL-RC: A Chinese Reading Comprehension Dataset
 
-标签（空格分隔）： Reading Comprehension
-
----
 Here, we release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (CFT). We hope this would speed up the process for future research in machine comprehension.
-
-##Statistics
-The statistics of the dataset is listed as below.
-|　| PD-train | PD-valid | PD-test | CFT-auto | CFT-human |
-|--------|:-----:|:-----:|:-----:|:-----:|:-----:|
-| # Query | 870,710 | 3,000 | 3,000 | 1,646 | 1,953 |
-| Max # tokens in docs | 618 | 536 | 634 | 318 | 414 |
-| Max # tokens in query| 502 | 153 | 265 | 83 | 92 |
-| Avg # tokens in docs | 379 | 425 | 410 | 122 | 153 |
-| Avg # tokens in query| 38 | 38 | 41 | 20 | 20 |
-| Vocabulary | 248,160 | - | - | - | - |
 
 
 ##Data Format
@@ -41,33 +27,17 @@ and the last line indicate the `Query` and `Answer`
 sentence_id(space)|||(space)Query(space)|||(space)Answer
 ```
 
-
-##Downloads
-**The download link will soon available...** 
-> **People Daily**
-[Training Data]
-[Validation & Test Data]
-
-> **Children's Fairy Tale (CFT)**
-[Automatic Test Data]
-[Human Evaluated Test Data]
-
-Download all data in a single package:
-> **ALL in ONE**
-[Download link]
-
-
 ##Paper
-Our paper is avaliable through arXiv: 
+Our paper is avaliable through arXiv: (https://arxiv.org/abs/1607.02250)
 
 
 ##Reference
 If you wish to use this data in your work, please cite
 ```
-@article{cui-etal-2016,
+@article{cui-etal-2016-consensus,
   title={Consensus Attention Neural Networks for Chinese Reading Comprehension},
   author={Cui, Yiming and Liu, Ting and Chen, Zhipeng and Wang, Shijin and Hu, Guoping},
-  journal={arXiv preprint arXiv:1606.xxxxx},
+  journal={arXiv preprint arXiv:1607.02250},
   year={2016}
 }
 ```
@@ -84,3 +54,4 @@ If you wish to use this data in your work, please cite
 
 ##Contact
 For any problems concerning the paper or data, please contact: **admin [AT] ymcui [dot] com**
+Or leave a message in the `Github Issues`.
