@@ -45,13 +45,17 @@ If you wish to use this data in your work, please cite
 ##You may also interested in ...
 
 > **DeepMind CNN / Daily Mail data**
+
 [**Pre-processed Data (recommended)**](http://cs.nyu.edu/~kcho/DMQA/)
+
 [Original Data](https://github.com/deepmind/rc-data)
 
 > **Children's Book Test (CBTest)**
+
 [**Original Data**](http://www.thespermwhale.com/jaseweston/babi/CBTest.tgz)
 
 
 ##Contact
 For any problems concerning the paper or data, please contact: **admin [AT] ymcui [dot] com**
+
 Or leave a message in the `Github Issues`.
