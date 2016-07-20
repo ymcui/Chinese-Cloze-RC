@@ -17,6 +17,7 @@ More detailed info: http://hfl.iflytek.com/chinese-rc/
 		- cft.test.human (human evaluated test set)
 
 NOTE: As we have illustrated in the paper, the human evaluation test set is **NOT** the query proposed by human. The human evaluation set is also the Cloze-style queries, but those easy ones are eliminated.
+
 注意：我们在文中提到的人工测试集 **不是** 人工提问的测试集，是指人工筛选的填空题，其中一些非常简单的问题已经被剔除掉。
 
 ##Data Format
