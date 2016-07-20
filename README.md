@@ -4,6 +4,20 @@ Here, we release the first Chinese reading comprehension dataset, which includes
 
 More detailed info: http://hfl.iflytek.com/chinese-rc/
 
+##Directory Guide
+- people_daily
+	- pd.zip
+		- pd.train (training file)
+		- pd.valid (validation file)
+		- pd.test  (test file)
+
+- children_fairy_tale
+	- cft.zip
+		- cft.test.auto	(automatically generated test set)
+		- cft.test.human (human evaluated test set)
+NOTE: As we have illustrated in the paper, the human evaluation test set is **NOT** the query proposed by human. The human evaluation set is also the Cloze-style queries, but those easy ones are eliminated.
+注意：我们在文中提到的人工测试集 **不是** 人工提问的测试集，是指人工筛选的填空题，其中一些非常简单的问题已经被剔除掉。
+
 ##Data Format
 Here is a sample of People Daily data,
 ```
