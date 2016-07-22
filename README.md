@@ -1,6 +1,6 @@
-# HFL-RC: A Chinese Reading Comprehension Dataset
+# HFL-RC: A Chinese Cloze-style Reading Comprehension Dataset
 
-Here, we release the first Chinese reading comprehension dataset, which includes **People Daily** and **Children's Fairy Tale (CFT)**. We hope this would speed up the process for future research in machine comprehension.
+Here, we release the first Chinese Cloze-style reading comprehension dataset, which includes **People Daily** and **Children's Fairy Tale (CFT)**. We hope this would speed up the process for future research in machine comprehension.
 
 More detailed info: http://hfl.iflytek.com/chinese-rc/
 
@@ -72,6 +72,10 @@ If you wish to use this data in your work, please cite
 > **Children's Book Test (CBTest)**
 
 [**Original Data**](http://www.thespermwhale.com/jaseweston/babi/CBTest.tgz)
+
+
+##Future Plan
+We would like to release another associated **human annotated** datasets as soon as we finish it.
 
 
 ##Contact
