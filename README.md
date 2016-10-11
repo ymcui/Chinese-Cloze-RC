@@ -4,6 +4,13 @@ Here, we release the first Chinese Cloze-style reading comprehension dataset, wh
 
 More detailed info: http://hfl.iflytek.com/chinese-rc/
 
+##versions
+2016/10/10	v1.1	replace the placeholder from "X" to "XXXXX"
+2016/07/16	v1.0	the first release	
+
+##Downloads
+Please go to `release`(https://github.com/ymcui/Chinese-RC-Dataset/releases) to download this dataset (latest version v1.1)
+
 ##Directory Guide
 - people_daily
 	- pd.zip
