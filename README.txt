@@ -15,3 +15,4 @@
 	- cft.zip
 		- cft.test.auto	(automatically generated test set)
 		- cft.test.human (human evaluated test set)
+/Users/Kevin/Develop/github/Chinese-RC-Dataset/README.txt

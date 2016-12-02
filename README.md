@@ -61,11 +61,13 @@ Avaliable through arXiv: https://arxiv.org/abs/1607.02250
 ##Reference
 If you wish to use this data in your work, please cite
 ```
-@article{cui-etal-2016-consensus,
-  title={Consensus Attention-based Neural Networks for Chinese Reading Comprehension},
-  author={Cui, Yiming and Liu, Ting and Chen, Zhipeng and Wang, Shijin and Hu, Guoping},
-  journal={arXiv preprint arXiv:1607.02250},
-  year={2016}
+@InProceedings{cui-etal-2016-consensus,
+  title		= {Consensus Attention-based Neural Networks for Chinese Reading Comprehension},
+  author	= {Cui, Yiming and Liu, Ting and Chen, Zhipeng and Wang, Shijin and Hu, Guoping},
+  booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
+  year      = {2016},
+  address   = {Osaka, Japan},
+  pages     = {1777--1786},
 }
 ```
 
