@@ -1,16 +1,11 @@
-# HFL-RC: A Chinese Cloze-style Reading Comprehension Dataset
+# HFL-RC: A Chinese Reading Comprehension Dataset
 
-Here, we release the first Chinese Cloze-style reading comprehension dataset, which includes **People Daily** and **Children's Fairy Tale (CFT)**. We hope this would speed up the process for future research in machine comprehension.
+标签（空格分隔）： Reading Comprehension
 
-More detailed info: http://hfl.iflytek.com/chinese-rc/
+---
+http://www.hfl-tek.com/chinese-rc/
 
-##versions
-2016/10/11	v1.1	replace the placeholder from "X" to "XXXXX"
-
-2016/07/16	v1.0	the first release	
-
-##Downloads
-Please go to `release`(https://github.com/ymcui/Chinese-RC-Dataset/releases) to download this dataset (latest version v1.1)
+Here, we release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (CFT). We hope this would speed up the process for future research in machine comprehension.
 
 ##Directory Guide
 - people_daily
@@ -25,8 +20,19 @@ Please go to `release`(https://github.com/ymcui/Chinese-RC-Dataset/releases) to 
 		- cft.test.human (human evaluated test set)
 
 NOTE: As we have illustrated in the paper, the human evaluation test set is **NOT** the query proposed by human. The human evaluation set is also the Cloze-style queries, but those easy ones are eliminated.
-
 注意：我们在文中提到的人工测试集 **不是** 人工提问的测试集，是指人工筛选的填空题，其中一些非常简单的问题已经被剔除掉。
+
+##Statistics
+The statistics of the dataset is listed as below.
+|　| PD-train | PD-valid | PD-test | CFT-auto | CFT-human |
+|--------|:-----:|:-----:|:-----:|:-----:|:-----:|
+| # Query | 870,710 | 3,000 | 3,000 | 1,646 | 1,953 |
+| Max # tokens in docs | 618 | 536 | 634 | 318 | 414 |
+| Max # tokens in query| 502 | 153 | 265 | 83 | 92 |
+| Avg # tokens in docs | 379 | 425 | 410 | 122 | 153 |
+| Avg # tokens in query| 38 | 38 | 41 | 20 | 20 |
+| Vocabulary | 248,160 | - | - | - | - |
+
 
 ##Data Format
 Here is a sample of People Daily data,
@@ -52,11 +58,20 @@ and the last line indicate the `Query` and `Answer`
 sentence_id(space)|||(space)Query(space)|||(space)Answer
 ```
 
+
+##Downloads
+Our data is avaliable through Github
+> **People Daily & Children's Fairy Tale (CFT)**
+[Download link](https://github.com/ymcui/Chinese-RC-Dataset)
+
+
 ##Paper
-Detailed information can be found in our paper.
+Our paper is avaliable through 
+ACL Anthology: http://aclanthology.info/papers/consensus-attention-based-neural-networks-for-chinese-reading-comprehension
+arXiv: https://arxiv.org/abs/1607.02250
 
-Avaliable through arXiv: https://arxiv.org/abs/1607.02250
-
+##Licence
+Our data is under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
 ##Reference
 If you wish to use this data in your work, please cite
@@ -74,21 +89,12 @@ If you wish to use this data in your work, please cite
 ##You may also interested in ...
 
 > **DeepMind CNN / Daily Mail data**
-
 [**Pre-processed Data (recommended)**](http://cs.nyu.edu/~kcho/DMQA/)
-
 [Original Data](https://github.com/deepmind/rc-data)
 
 > **Children's Book Test (CBTest)**
-
 [**Original Data**](http://www.thespermwhale.com/jaseweston/babi/CBTest.tgz)
-
-
-##Future Plan
-We would like to release another associated **human annotated** datasets as soon as we finish it.
 
 
 ##Contact
 For any problems concerning the paper or data, please contact: **admin [AT] ymcui [dot] com**
-
-Or leave a message in the `Github Issues`.
