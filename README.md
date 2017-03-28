@@ -5,7 +5,7 @@ http://www.hfl-tek.com/chinese-rc/
 
 Here, we release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (CFT). We hope this would speed up the process for future research in machine comprehension.
 
-##Directory Guide
+## Directory Guide
 - people_daily
 	- pd.zip
 		- pd.train (training file)
@@ -20,7 +20,7 @@ Here, we release the first Chinese reading comprehension dataset, which includes
 NOTE: As we have illustrated in the paper, the human evaluation test set is **NOT** the query proposed by human. The human evaluation set is also the Cloze-style queries, but those easy ones are eliminated.
 注意：我们在文中提到的人工测试集 **不是** 人工提问的测试集，是指人工筛选的填空题，其中一些非常简单的问题已经被剔除掉。
 
-##Statistics
+## Statistics
 The statistics of the dataset is listed as below.
 |　| PD-train | PD-valid | PD-test | CFT-auto | CFT-human |
 |--------|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -32,7 +32,7 @@ The statistics of the dataset is listed as below.
 | Vocabulary | 248,160 | - | - | - | - |
 
 
-##Data Format
+## Data Format
 Here is a sample of People Daily data,
 ```
 1 ||| 人民网 1月 1日 讯 据 《 纽约 时报 》 报道 ， 美国 华尔街 股市 在 2013年 的 最后 一 天 继续 上涨 ， 和 全球 股市 一样 ， 都 以 最高 纪录 或 接近 最高 纪录 结束 本年 的 交易 。
@@ -57,21 +57,21 @@ sentence_id(space)|||(space)Query(space)|||(space)Answer
 ```
 
 
-##Downloads
+## Downloads
 Our data is avaliable through Github
 > **People Daily & Children's Fairy Tale (CFT)**
 [Download link](https://github.com/ymcui/Chinese-RC-Dataset)
 
 
-##Paper
+## Paper
 Our paper is avaliable through 
 ACL Anthology: http://aclanthology.info/papers/consensus-attention-based-neural-networks-for-chinese-reading-comprehension
 arXiv: https://arxiv.org/abs/1607.02250
 
-##Licence
+## Licence
 Our data is under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
-##Reference
+## Reference
 If you wish to use this data in your work, please cite
 ```
 @InProceedings{cui-etal-2016-consensus,
@@ -84,7 +84,7 @@ If you wish to use this data in your work, please cite
 }
 ```
 
-##You may also interested in ...
+## You may also interested in ...
 
 > **DeepMind CNN / Daily Mail data**
 [**Pre-processed Data (recommended)**](http://cs.nyu.edu/~kcho/DMQA/)
@@ -94,5 +94,5 @@ If you wish to use this data in your work, please cite
 [**Original Data**](http://www.thespermwhale.com/jaseweston/babi/CBTest.tgz)
 
 
-##Contact
+## Contact
 For any problems concerning the paper or data, please contact: **admin [AT] ymcui [dot] com**
