@@ -1,4 +1,4 @@
-# HFL-RC: A Chinese Reading Comprehension Dataset
+# PD&CFT: A Chinese Reading Comprehension Dataset
 
 http://www.hfl-tek.com/chinese-rc/
 ---
@@ -60,7 +60,7 @@ sentence_id(space)|||(space)Query(space)|||(space)Answer
 
 ##Downloads
 Our data is avaliable through Github
-> [**People Daily & Children's Fairy Tale (CFT)**](https://github.com/ymcui/Chinese-RC-Dataset)
+> [**People Daily & Children's Fairy Tale (PD&CFT)**](https://github.com/ymcui/Chinese-RC-Dataset)
 
 
 
