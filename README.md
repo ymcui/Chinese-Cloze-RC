@@ -22,7 +22,8 @@ NOTE: As we have illustrated in the paper, the human evaluation test set is **NO
 
 ## Statistics
 The statistics of the dataset is listed as below.
-|　| PD-train | PD-valid | PD-test | CFT-auto | CFT-human |
+
+| - | PD-train | PD-valid | PD-test | CFT-auto | CFT-human |
 |--------|:-----:|:-----:|:-----:|:-----:|:-----:|
 | # Query | 870,710 | 3,000 | 3,000 | 1,646 | 1,953 |
 | Max # tokens in docs | 618 | 536 | 634 | 318 | 414 |
