@@ -71,10 +71,10 @@ Our paper is avaliable through
 
 > [**arXiv Pre-print**](https://arxiv.org/abs/1607.02250)
 
-##Licence
+## Licence
 Our data is under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
-##Reference
+## Reference
 If you wish to use this data in your work, please cite
 ```
 @InProceedings{cui-etal-2016-consensus,
