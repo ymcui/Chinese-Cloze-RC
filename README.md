@@ -1,9 +1,7 @@
 # HFL-RC: A Chinese Reading Comprehension Dataset
 
-标签（空格分隔）： Reading Comprehension
-
----
 http://www.hfl-tek.com/chinese-rc/
+---
 
 Here, we release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (CFT). We hope this would speed up the process for future research in machine comprehension.
 
