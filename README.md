@@ -71,6 +71,12 @@ Our paper is avaliable through
 
 > [**arXiv Pre-print**](https://arxiv.org/abs/1607.02250)
 
+## International Standard Language Resource Number (ISLRN)
+ISLRN: 343-112-755-039-0
+
+http://www.islrn.org/resources/resources_info/7838/
+
+
 ## Licence
 Our data is under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
