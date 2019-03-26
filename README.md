@@ -1,9 +1,5 @@
 # PD&CFT: A Chinese Reading Comprehension Dataset
 
-http://www.hfl-tek.com/chinese-rc/
-
----
-
 We release the first Chinese reading comprehension dataset, which includes People Daily and Children's Fairy Tale (PD&CFT). We hope this would speed up the process for future research in machine comprehension.
 
 ## Directory Guide
